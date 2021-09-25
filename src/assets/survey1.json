@@ -1,0 +1,48 @@
+{
+    "title": "Star Wars Trivia Test",
+    "questions": [
+        {
+            "type": "check-one",
+            "question": "What is the favorite color of Yoda?",
+            "responses": [
+                "red",
+                "blue",
+                "green",
+                "orange"
+            ],
+            "answer": 2
+        },
+        {
+            "type": "check-all",
+            "question": "What toppings does Darth Vader like on his pizza?",
+            "responses": [
+                "Mushrooms",
+                "Pepperoni",
+                "Tomatoes",
+                "Black Olives",
+                "Sausage",
+                "Bacon",
+                "Green Pepper"
+            ],
+            "answer": [
+                0,
+                3,
+                6
+            ]
+        },
+        {
+            "type": "check-one",
+            "question": "True or False: R2D2 hates country music.",
+            "responses": [
+                "True",
+                "False"
+            ],
+            "answer": 1
+        },
+        {
+            "type": "numeric",
+            "question": "How many cats does Han Solo have?",
+            "answer": 3
+        }
+    ]
+}
