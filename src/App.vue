@@ -5,9 +5,20 @@
 </template>
 
 <script>
+import axios from "axios"
 
 export default {
   name: 'App',
+  data(){
+    return {
+      surveyData: null
+    }
+  },
+  created(){
+    axios.get('survey1.json').then((response)=>{
+      this.surveyData = response.data;
+    })
+  }
 }
 </script>
 
